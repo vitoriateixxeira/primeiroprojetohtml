@@ -3,18 +3,72 @@
     <head>
         <title>A metamorfose</title>
         <meta charset="utf-8">
+        <style type="text/css">
+            .titulo {
+                font-weight: 900;
+                text-align: center;
+                font-size: 3em;
+                color: #00003e;
+            }
+    
+            .nomeautor {
+                font-size: 1.5em;
+                font-style: italic;
+                text-align: center;
+                font-weight: 900;
+    
+    
+            }
+    
+            .capa {
+                /*A propriedade “display” define como um elemento deve ser exibido na página, como um bloco, em linha, ou em linha com bloco.
+    Já a propriedade “margin” é usada para definir o espaçamento externo de um elemento em relação a outros elementos ao seu redor.*/
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .justificado {
+                font-size: 1em;
+                text-align: center justify;
+                /*add colunas*/
+                column-count: 3;
+                /*espaçamento entre elas*/
+                column-gap: 10px;
+                /*add linhas entre as colunas*/
+                column-rule: 2px solid #00003e;
+    
+    
+    
+            }
+    
+            .alinhar {
+                text-align: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 2em;
+                font-weight: 900;
+            }
+        </style>
     </head>
     <body>
         <a href="index.html">Home</a>
         
-        <h1>A metamorfose</h1>
-        <h2><em>Franz Kafka</em></h2>
+        <p class="titulo">A metamorfose</p>
+        <p class="nomeautor">Franz Kafka</p>
        
-           <img src="metamorfose.jpg" width="200">
-           <h2>Sinopse</h2>
-           <p>O caixeiro-viajante Gregor acorda metamorfoseado em um enorme inseto e percebe que tudo mudou e não só em sua vida, mas no mundo. Ele, então, acompanha as reações de sua família ao perceberem o estranho ser em que ele se tornou. E, enquanto luta para se manter vivo, reflete sobre o comportamento de seus pais, de sua irmã e sobre a sua nova vida</p>
-            <h2>Detalhes do livro:</h2>
-            <table border="1">
+           <img src="metamorfose.jpg" width="200" class="capa">
+           <div class="alinhar">
+            <p>Sinopse</p>
+           </div>
+           
+           <p class="justificado">O caixeiro-viajante Gregor acorda metamorfoseado em um enorme inseto e percebe que tudo mudou e não só em sua vida, mas no mundo. Ele, então, acompanha as reações de sua família ao perceberem o estranho ser em que ele se tornou. E, enquanto luta para se manter vivo, reflete sobre o comportamento de seus pais, de sua irmã e sobre a sua nova vida</p>
+           <div class="alinhar">
+            <p>Detalhes do livro</p>
+           </div>
+           
+            <table border="1" align="center">
                 <tr>
                 <th>EDITORA</th>
                 <td> Principis; Integral edição (27 setembro 2019)</td>
@@ -40,9 +94,9 @@
                                 <td> 4,5/5,0</td>
                                 </tr>
             </table>
-        
-            <h2>Resenha</h2>
-        <p>O livro conta a história de Gregor Samsa – um caixeiro viajante que transforma-se em um inseto nojento. A narrativa já começa com a transformação do personagem, deixando todo o contexto para depois. A frase que inicia o livro já é clássica: “Certa manhã, ao despertar de sonhos intranquilos, Gregor Samsa encontrou-se em sua cama metamorfoseado num inseto monstruoso”.
+            <div class="alinhar"><p>Resenha</p></div>
+            
+        <p class="justificado">O livro conta a história de Gregor Samsa – um caixeiro viajante que transforma-se em um inseto nojento. A narrativa já começa com a transformação do personagem, deixando todo o contexto para depois. A frase que inicia o livro já é clássica: “Certa manhã, ao despertar de sonhos intranquilos, Gregor Samsa encontrou-se em sua cama metamorfoseado num inseto monstruoso”.
 
             A partir disso, a história é narrada com um realismo inesperado que associa o inverossímil e o senso de humor a tudo o que é grotesco, trágico e cruel na condição humana.*
             
